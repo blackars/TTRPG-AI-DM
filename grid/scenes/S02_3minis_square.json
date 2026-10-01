@@ -1,0 +1,28 @@
+{
+ "id": "S02_3minis_square",
+ "grid": {
+  "tipo": "square",
+  "cols": 12,
+  "rows": 9,
+  "cell_mm": 50
+ },
+ "bg": null,
+ "spawns": [
+  {
+   "mini": "mago",
+   "celda": "A1"
+  },
+  {
+   "mini": "guerrero",
+   "celda": "A2"
+  },
+  {
+   "mini": "orco",
+   "celda": "A3"
+  }
+ ],
+ "overlays_intro": [],
+ "esperado": {
+  "conteo": 3
+ }
+}

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" width="720" height="540">
+<rect width="100%" height="100%" fill="black"/>
+<g id="grid" stroke="#ffffff44" stroke-width="1">
+<line x1="0" y1="0" x2="0" y2="540"/>
+<line x1="60" y1="0" x2="60" y2="540"/>
+<line x1="120" y1="0" x2="120" y2="540"/>
+<line x1="180" y1="0" x2="180" y2="540"/>
+<line x1="240" y1="0" x2="240" y2="540"/>
+<line x1="300" y1="0" x2="300" y2="540"/>
+<line x1="360" y1="0" x2="360" y2="540"/>
+<line x1="420" y1="0" x2="420" y2="540"/>
+<line x1="480" y1="0" x2="480" y2="540"/>
+<line x1="540" y1="0" x2="540" y2="540"/>
+<line x1="600" y1="0" x2="600" y2="540"/>
+<line x1="660" y1="0" x2="660" y2="540"/>
+<line x1="720" y1="0" x2="720" y2="540"/>
+<line x1="0" y1="0" x2="720" y2="0"/>
+<line x1="0" y1="60" x2="720" y2="60"/>
+<line x1="0" y1="120" x2="720" y2="120"/>
+<line x1="0" y1="180" x2="720" y2="180"/>
+<line x1="0" y1="240" x2="720" y2="240"/>
+<line x1="0" y1="300" x2="720" y2="300"/>
+<line x1="0" y1="360" x2="720" y2="360"/>
+<line x1="0" y1="420" x2="720" y2="420"/>
+<line x1="0" y1="480" x2="720" y2="480"/>
+<line x1="0" y1="540" x2="720" y2="540"/>
+</g><g id="labels" fill="#ffffff88" font-size="14" font-family="monospace">
+<text x="4" y="16">A1</text>
+<text x="4" y="76">A2</text>
+<text x="4" y="136">A3</text>
+<text x="4" y="196">A4</text>
+<text x="4" y="256">A5</text>
+<text x="4" y="316">A6</text>
+<text x="4" y="376">A7</text>
+<text x="4" y="436">A8</text>
+<text x="4" y="496">A9</text>
+<text x="64" y="16">B1</text>
+<text x="64" y="76">B2</text>
+<text x="64" y="136">B3</text>
+<text x="64" y="196">B4</text>
+<text x="64" y="256">B5</text>
+<text x="64" y="316">B6</text>
+<text x="64" y="376">B7</text>
+<text x="64" y="436">B8</text>
+<text x="64" y="496">B9</text>
+<text x="124" y="16">C1</text>
+<text x="124" y="76">C2</text>
+<text x="124" y="136">C3</text>
+<text x="124" y="196">C4</text>
+<text x="124" y="256">C5</text>
+<text x="124" y="316">C6</text>
+<text x="124" y="376">C7</text>
+<text x="124" y="436">C8</text>
+<text x="124" y="496">C9</text>
+<text x="184" y="16">D1</text>
+<text x="184" y="76">D2</text>
+<text x="184" y="136">D3</text>
+<text x="184" y="196">D4</text>
+<text x="184" y="256">D5</text>
+<text x="184" y="316">D6</text>
+<text x="184" y="376">D7</text>
+<text x="184" y="436">D8</text>
+<text x="184" y="496">D9</text>
+<text x="244" y="16">E1</text>
+<text x="244" y="76">E2</text>
+<text x="244" y="136">E3</text>
+<text x="244" y="196">E4</text>
+<text x="244" y="256">E5</text>
+<text x="244" y="316">E6</text>
+<text x="244" y="376">E7</text>
+<text x="244" y="436">E8</text>
+<text x="244" y="496">E9</text>
+<text x="304" y="16">F1</text>
+<text x="304" y="76">F2</text>
+<text x="304" y="136">F3</text>
+<text x="304" y="196">F4</text>
+<text x="304" y="256">F5</text>
+<text x="304" y="316">F6</text>
+<text x="304" y="376">F7</text>
+<text x="304" y="436">F8</text>
+<text x="304" y="496">F9</text>
+<text x="364" y="16">G1</text>
+<text x="364" y="76">G2</text>
+<text x="364" y="136">G3</text>
+<text x="364" y="196">G4</text>
+<text x="364" y="256">G5</text>
+<text x="364" y="316">G6</text>
+<text x="364" y="376">G7</text>
+<text x="364" y="436">G8</text>
+<text x="364" y="496">G9</text>
+<text x="424" y="16">H1</text>
+<text x="424" y="76">H2</text>
+<text x="424" y="136">H3</text>
+<text x="424" y="196">H4</text>
+<text x="424" y="256">H5</text>
+<text x="424" y="316">H6</text>
+<text x="424" y="376">H7</text>
+<text x="424" y="436">H8</text>
+<text x="424" y="496">H9</text>
+<text x="484" y="16">I1</text>
+<text x="484" y="76">I2</text>
+<text x="484" y="136">I3</text>
+<text x="484" y="196">I4</text>
+<text x="484" y="256">I5</text>
+<text x="484" y="316">I6</text>
+<text x="484" y="376">I7</text>
+<text x="484" y="436">I8</text>
+<text x="484" y="496">I9</text>
+<text x="544" y="16">J1</text>
+<text x="544" y="76">J2</text>
+<text x="544" y="136">J3</text>
+<text x="544" y="196">J4</text>
+<text x="544" y="256">J5</text>
+<text x="544" y="316">J6</text>
+<text x="544" y="376">J7</text>
+<text x="544" y="436">J8</text>
+<text x="544" y="496">J9</text>
+<text x="604" y="16">K1</text>
+<text x="604" y="76">K2</text>
+<text x="604" y="136">K3</text>
+<text x="604" y="196">K4</text>
+<text x="604" y="256">K5</text>
+<text x="604" y="316">K6</text>
+<text x="604" y="376">K7</text>
+<text x="604" y="436">K8</text>
+<text x="604" y="496">K9</text>
+<text x="664" y="16">L1</text>
+<text x="664" y="76">L2</text>
+<text x="664" y="136">L3</text>
+<text x="664" y="196">L4</text>
+<text x="664" y="256">L5</text>
+<text x="664" y="316">L6</text>
+<text x="664" y="376">L7</text>
+<text x="664" y="436">L8</text>
+<text x="664" y="496">L9</text>
+</g></svg>

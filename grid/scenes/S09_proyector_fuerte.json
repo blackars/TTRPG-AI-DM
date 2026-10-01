@@ -1,0 +1,15 @@
+{
+ "id": "S09_proyector_fuerte",
+ "grid": {
+  "tipo": "square",
+  "cols": 12,
+  "rows": 9,
+  "cell_mm": 50
+ },
+ "bg": null,
+ "spawns": [],
+ "overlays_intro": [],
+ "esperado": {
+  "conteo": 0
+ }
+}

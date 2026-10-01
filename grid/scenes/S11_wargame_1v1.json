@@ -1,0 +1,26 @@
+{
+ "id": "S11_wargame_1v1",
+ "grid": {
+  "tipo": "hex",
+  "cols": 11,
+  "rows": 9,
+  "cell_mm": 50,
+  "orientacion": "pointy",
+  "offset": "odd-r"
+ },
+ "bg": null,
+ "spawns": [
+  {
+   "mini": "azul1",
+   "celda": "01.01"
+  },
+  {
+   "mini": "rojo1",
+   "celda": "08.08"
+  }
+ ],
+ "overlays_intro": [],
+ "esperado": {
+  "conteo": 2
+ }
+}

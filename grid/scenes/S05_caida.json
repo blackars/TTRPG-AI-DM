@@ -1,0 +1,21 @@
+{
+ "id": "S05_caida",
+ "grid": {
+  "tipo": "square",
+  "cols": 12,
+  "rows": 9,
+  "cell_mm": 50
+ },
+ "bg": null,
+ "spawns": [
+  {
+   "mini": "orco",
+   "celda": "B2",
+   "estado": "caido"
+  }
+ ],
+ "overlays_intro": [],
+ "esperado": {
+  "conteo": 1
+ }
+}

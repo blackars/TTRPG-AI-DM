@@ -1,0 +1,38 @@
+{
+ "id": "S03_5minis_hex",
+ "grid": {
+  "tipo": "hex",
+  "cols": 11,
+  "rows": 9,
+  "cell_mm": 50,
+  "orientacion": "pointy",
+  "offset": "odd-r"
+ },
+ "bg": null,
+ "spawns": [
+  {
+   "mini": "mago",
+   "celda": "03.04"
+  },
+  {
+   "mini": "xeno1",
+   "celda": "04.04"
+  },
+  {
+   "mini": "xeno2",
+   "celda": "04.05"
+  },
+  {
+   "mini": "muro",
+   "celda": "05.04"
+  },
+  {
+   "mini": "npc",
+   "celda": "02.03"
+  }
+ ],
+ "overlays_intro": [],
+ "esperado": {
+  "conteo": 5
+ }
+}

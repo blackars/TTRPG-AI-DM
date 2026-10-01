@@ -1,0 +1,26 @@
+{
+ "id": "S06_spawn_xeno",
+ "grid": {
+  "tipo": "square",
+  "cols": 12,
+  "rows": 9,
+  "cell_mm": 50
+ },
+ "bg": null,
+ "spawns": [
+  {
+   "mini": "xenomorph",
+   "celda": "F5",
+   "clase": "enemigo"
+  },
+  {
+   "mini": "xenomorph",
+   "celda": "F6",
+   "clase": "enemigo"
+  }
+ ],
+ "overlays_intro": [],
+ "esperado": {
+  "conteo": 2
+ }
+}

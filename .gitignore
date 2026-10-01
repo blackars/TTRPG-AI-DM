@@ -1,0 +1,20 @@
+# Binarios pesados: se regeneran o viven fuera del repo (videos, zips, pesos, sintéticas)
+*.mp4
+*.zip
+*.pt
+*.onnx
+*.db
+# Fotos y frames (se listan en manifest.csv; masters se agregan con -f)
+*.jpg
+*.jpeg
+*.png
+*.JPG
+# Cachés y entornos
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+# Credenciales y locales
+.env
+.DS_Store
+Thumbs.db

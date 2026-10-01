@@ -1,0 +1,51 @@
+archivo,nitidez,calidad,n_minis,detecciones
+conminito_azul_caido_cderecha.jpg,4.7,BORROSA,1,D3 de_pie
+conminito_azul_caido_centro.jpg,4.9,BORROSA,1,D3 de_pie
+conminito_azul_caido_izquierda.jpg,5.7,BORROSA,1,D3 de_pie
+conminito_azul_depie_centro-derecha.jpg,5.6,BORROSA,1,D3 de_pie
+conminito_azul_depie_centro.jpg,5.5,BORROSA,1,D3 de_pie
+conminito_azul_depie_centro2.jpg,5.5,BORROSA,1,D3 de_pie
+conminito_azul_depie_derecha.jpg,5.4,BORROSA,1,D3 de_pie
+conminito_azul_depie_derecha2.jpg,5.4,BORROSA,1,D3 de_pie
+conminito_azul_depie_espaldas_centro3.jpg,5.4,BORROSA,1,D3 de_pie
+conminito_azul_depie_izquierda.jpg,5.5,BORROSA,1,D3 de_pie
+conminito_azul_depie_izquierda2.jpg,5.4,BORROSA,1,D3 de_pie
+conminito_caido_centro.jpg,14.5,BORROSA,1,C3 caido
+conminito_caido_centro2.jpg,14.4,BORROSA,1,C3 caido
+conminito_caido_centro3.jpg,14.3,BORROSA,2,C3 caido;C1 caido
+conminito_caido_centro4.jpg,14.2,BORROSA,1,C3 caido
+conminito_caido_derecha.jpg,14.4,BORROSA,2,C3 caido;D1 de_pie
+conminito_caido_izquierda.jpg,14.4,BORROSA,1,C3 caido
+conminito_calida_centro.jpg,20.0,BORROSA,1,C2 de_pie
+conminito_calida_centro_caido.jpg,20.6,BORROSA,2,C2 de_pie;B2 caido
+conminito_calida_centro_caido2.jpg,20.3,BORROSA,1,C2 de_pie
+conminito_calida_derecha.jpg,20.0,BORROSA,2,C2 de_pie;B2 caido
+conminito_calida_derecha2.jpg,20.7,BORROSA,1,C2 de_pie
+conminito_calida_esquina-arriba.jpg,20.6,BORROSA,1,C2 de_pie
+conminito_calida_esquina-derecha_caido.jpg,20.8,BORROSA,1,C2 de_pie
+conminito_calida_esquina-izquierda.jpg,19.8,BORROSA,2,C2 de_pie;B2 caido
+conminito_calida_esquina-izquierda_caido.jpg,20.3,BORROSA,1,C2 de_pie
+conminito_centro-arriba.jpg,29.4,BORROSA,1,C3 caido
+conminito_centro.jpg,14.5,BORROSA,1,C3 caido
+conminito_derech.jpg,30.6,BORROSA,1,C3 caido
+conminito_izquierda.jpg,14.7,BORROSA,1,C3 caido
+vacio1.jpg,9.6,BORROSA,3,C3 caido;D3 de_pie;B1 caido
+vacio10.jpg,28.5,BORROSA,1,C3 caido
+vacio2.jpg,15.8,BORROSA,1,C3 caido
+vacio3.jpg,14.9,BORROSA,1,C3 caido
+vacio4.jpg,15.0,BORROSA,1,C3 caido
+vacio5.jpg,9.8,BORROSA,1,C3 caido
+vacio7.jpg,15.3,BORROSA,2,C4 caido;C3 caido
+vacio8.jpg,14.6,BORROSA,2,C4 caido;C3 caido
+vacio9.jpg,18.0,BORROSA,2,B3 de_pie;D2 de_pie
+vacio_azul1.jpg,3.7,BORROSA,1,D2 de_pie
+vacio_azul2.jpg,4.6,BORROSA,1,D2 de_pie
+vacio_azul3.jpg,15.6,BORROSA,1,D2 de_pie
+vacio_azul_30-70.jpg,17.7,BORROSA,3,A3 de_pie;D2 de_pie;D3 de_pie
+vacio_azul_50-50.jpg,18.9,BORROSA,2,B3 de_pie;D2 de_pie
+vacio_azul_70-30.jpg,19.6,BORROSA,1,B3 caido
+vacio_calido1.jpg,26.6,BORROSA,2,D2 de_pie;C3 de_pie
+vacio_calido2.jpg,21.0,BORROSA,2,C2 de_pie;C3 de_pie
+vacio_Calido3.jpg,23.7,BORROSA,2,D2 de_pie;C3 de_pie
+vacio_rojo.jpg,6.1,BORROSA,1,C2 de_pie
+vacio_verde.jpg,9.2,BORROSA,2,D2 de_pie;C3 de_pie

@@ -1,0 +1,26 @@
+{
+ "id": "S10_doble_altura",
+ "grid": {
+  "tipo": "hex",
+  "cols": 11,
+  "rows": 9,
+  "cell_mm": 50,
+  "orientacion": "pointy",
+  "offset": "odd-r"
+ },
+ "bg": null,
+ "spawns": [
+  {
+   "mini": "xeno",
+   "celda": "04.04"
+  },
+  {
+   "mini": "torre",
+   "celda": "04.05"
+  }
+ ],
+ "overlays_intro": [],
+ "esperado": {
+  "conteo": 2
+ }
+}

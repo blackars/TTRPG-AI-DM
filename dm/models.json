@@ -1,0 +1,1 @@
+{"embed": {"model": "nomic-embed-text", "uso": "pgvector MiniBase"}, "fast": {"ctx": 4096, "model": "phi4-mini", "temp": 0.1, "uso": "deltas, filtros, spawn-valida"}, "story": {"ctx": 8192, "model": "mistral:7b-instruct", "uso": "narracion"}, "vision_desc": {"ctx": 8192, "model": "qwen3.5:4b", "uso": "describe escena si YOLO duda"}}

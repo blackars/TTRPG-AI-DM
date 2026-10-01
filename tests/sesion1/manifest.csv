@@ -1,0 +1,83 @@
+ruta,original,set,luz,posicion,tiene_mini,nitidez,sirve,uso,nota
+studio_celu\amarillo_frontal.jpg,amarillo_frontal.jpg,estudio,studio,n/a,SI,9.5,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\azul_frontal.jpg,azul_frontal.jpg,estudio,studio,n/a,SI,21.6,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\caido_abajo.jpg,caido_abajo.jpg,estudio,studio,n/a,SI,25.3,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\caido_arriba.jpg,caido_arriba.jpg,estudio,studio,n/a,SI,27.0,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\caido_derecha.jpg,caido_derecha.jpg,estudio,studio,n/a,SI,30.7,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\caido_izquierda.jpg,caido_izquierda.jpg,estudio,studio,n/a,SI,47.6,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\cenital_frontal.jpg,cenital_frontal.jpg,estudio,studio,n/a,SI,67.9,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\cenital_lado_derecho.jpg,cenital_lado_derecho.jpg,estudio,studio,n/a,SI,84.1,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\cenital_lado_izquierdo.jpg,cenital_lado_izquierdo.jpg,estudio,studio,n/a,SI,33.0,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\cenital_parte_trasera.jpg,cenital_parte_trasera.jpg,estudio,studio,n/a,SI,36.6,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\frontal1.JPG,frontal1.JPG,estudio,studio,n/a,SI,38.4,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\frontal2.JPG,frontal2.JPG,estudio,studio,n/a,SI,39.7,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\frontal3.png,frontal3.png,estudio,studio,n/a,SI,115.7,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\lateral_derecho.JPG,lateral_derecho.JPG,estudio,studio,n/a,SI,30.4,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\lateral_trasero_derecho.JPG,lateral_trasero_derecho.JPG,estudio,studio,n/a,SI,33.3,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\lateral_trasero_izquierdo.JPG,lateral_trasero_izquierdo.JPG,estudio,studio,n/a,SI,34.4,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\morado_frontal.jpg,morado_frontal.jpg,estudio,studio,n/a,SI,20.1,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\naranja_frontal.jpg,naranja_frontal.jpg,estudio,studio,n/a,SI,8.7,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\roja_frontal.jpg,roja_frontal.jpg,estudio,studio,n/a,SI,11.7,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+studio_celu\trasera.JPG,trasera.JPG,estudio,studio,n/a,SI,39.4,SI,recorte/entrenar,"estudio celu, recorte/entrenar"
+tablero_webcam\blanca_depie_amarilla-azul-roja-vs-morada-naranja-verde.jpg,blanca_depie_amarilla-azul-roja-vs-morada-naranja-verde.jpg,tablero,blanca,centro,SI,4265.2,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_centro_depie.jpg"
+tablero_webcam\blanca_depie_azul_roja_amarilla.jpg,blanca_depie_azul_roja_amarilla.jpg,tablero,blanca,centro,SI,4762.7,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_centro_depie.jpg"
+tablero_webcam\blanca_depie_azul_roja_amarilla2.jpg,blanca_depie_azul_roja_amarilla2.jpg,tablero,blanca,centro,SI,4803.5,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_centro_depie.jpg"
+tablero_webcam\blanca_depie_azul_roja_amarilla3.jpg,blanca_depie_azul_roja_amarilla3.jpg,tablero,blanca,centro,SI,4844.9,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_centro_depie.jpg"
+tablero_webcam\blanca_depie_azul_roja_amarilla4.jpg,blanca_depie_azul_roja_amarilla4.jpg,tablero,blanca,centro,SI,4776.8,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_centro_depie.jpg"
+tablero_webcam\conminito_azul_caido_cderecha.jpg,conminito_azul_caido_cderecha.jpg,tablero,azul,derecha,SI,4.7,PARCIAL,test-luz,"mini casi invisible con RGB, caso dificil a futuro | canon:sesion1_azul_derecha_caido.jpg"
+tablero_webcam\conminito_azul_caido_centro.jpg,conminito_azul_caido_centro.jpg,tablero,azul,centro,SI,4.9,PARCIAL,test-luz,"mini casi invisible con RGB, caso dificil a futuro | canon:sesion1_azul_centro_caido.jpg"
+tablero_webcam\conminito_azul_caido_izquierda.jpg,conminito_azul_caido_izquierda.jpg,tablero,azul,izquierda,SI,5.7,PARCIAL,test-luz,"mini casi invisible con RGB, caso dificil a futuro | canon:sesion1_azul_izquierda_caido.jpg"
+tablero_webcam\conminito_azul_depie_centro-derecha.jpg,conminito_azul_depie_centro-derecha.jpg,tablero,azul,derecha,SI,5.6,PARCIAL,test-luz,"mini casi invisible con RGB, caso dificil a futuro | canon:sesion1_azul_derecha_depie.jpg"
+tablero_webcam\conminito_azul_depie_centro.jpg,conminito_azul_depie_centro.jpg,tablero,azul,centro,SI,5.5,PARCIAL,test-luz,"mini casi invisible con RGB, caso dificil a futuro | canon:sesion1_azul_centro_depie.jpg"
+tablero_webcam\conminito_azul_depie_centro2.jpg,conminito_azul_depie_centro2.jpg,tablero,azul,centro,SI,5.5,PARCIAL,test-luz,"mini casi invisible con RGB, caso dificil a futuro | canon:sesion1_azul_centro_depie.jpg"
+tablero_webcam\conminito_azul_depie_derecha.jpg,conminito_azul_depie_derecha.jpg,tablero,azul,derecha,SI,5.4,PARCIAL,test-luz,"mini casi invisible con RGB, caso dificil a futuro | canon:sesion1_azul_derecha_depie.jpg"
+tablero_webcam\conminito_azul_depie_derecha2.jpg,conminito_azul_depie_derecha2.jpg,tablero,azul,derecha,SI,5.4,PARCIAL,test-luz,"mini casi invisible con RGB, caso dificil a futuro | canon:sesion1_azul_derecha_depie.jpg"
+tablero_webcam\conminito_azul_depie_espaldas_centro3.jpg,conminito_azul_depie_espaldas_centro3.jpg,tablero,azul,centro,SI,5.4,PARCIAL,test-luz,"mini casi invisible con RGB, caso dificil a futuro | canon:sesion1_azul_centro_depie.jpg"
+tablero_webcam\conminito_azul_depie_izquierda.jpg,conminito_azul_depie_izquierda.jpg,tablero,azul,izquierda,SI,5.5,PARCIAL,test-luz,"mini casi invisible con RGB, caso dificil a futuro | canon:sesion1_azul_izquierda_depie.jpg"
+tablero_webcam\conminito_azul_depie_izquierda2.jpg,conminito_azul_depie_izquierda2.jpg,tablero,azul,izquierda,SI,5.4,PARCIAL,test-luz,"mini casi invisible con RGB, caso dificil a futuro | canon:sesion1_azul_izquierda_depie.jpg"
+tablero_webcam\conminito_caido_centro.jpg,conminito_caido_centro.jpg,tablero,blanca,centro,SI,14.5,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_centro_caido.jpg"
+tablero_webcam\conminito_caido_centro2.jpg,conminito_caido_centro2.jpg,tablero,blanca,centro,SI,14.4,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_centro_caido.jpg"
+tablero_webcam\conminito_caido_centro3.jpg,conminito_caido_centro3.jpg,tablero,blanca,centro,SI,14.3,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_centro_caido.jpg"
+tablero_webcam\conminito_caido_centro4.jpg,conminito_caido_centro4.jpg,tablero,blanca,centro,SI,14.2,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_centro_caido.jpg"
+tablero_webcam\conminito_caido_derecha.jpg,conminito_caido_derecha.jpg,tablero,blanca,derecha,SI,14.4,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_derecha_caido.jpg"
+tablero_webcam\conminito_caido_izquierda.jpg,conminito_caido_izquierda.jpg,tablero,blanca,izquierda,SI,14.4,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_izquierda_caido.jpg"
+tablero_webcam\conminito_calida_centro.jpg,conminito_calida_centro.jpg,tablero,calida,centro,SI,20.0,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_calida_centro_depie.jpg"
+tablero_webcam\conminito_calida_centro_caido.jpg,conminito_calida_centro_caido.jpg,tablero,calida,centro,SI,20.6,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_calida_centro_caido.jpg"
+tablero_webcam\conminito_calida_centro_caido2.jpg,conminito_calida_centro_caido2.jpg,tablero,calida,centro,SI,20.3,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_calida_centro_caido.jpg"
+tablero_webcam\conminito_calida_derecha.jpg,conminito_calida_derecha.jpg,tablero,calida,derecha,SI,20.0,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_calida_derecha_depie.jpg"
+tablero_webcam\conminito_calida_derecha2.jpg,conminito_calida_derecha2.jpg,tablero,calida,derecha,SI,20.7,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_calida_derecha_depie.jpg"
+tablero_webcam\conminito_calida_esquina-arriba.jpg,conminito_calida_esquina-arriba.jpg,tablero,calida,arriba,SI,20.6,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_calida_arriba_depie.jpg"
+tablero_webcam\conminito_calida_esquina-derecha_caido.jpg,conminito_calida_esquina-derecha_caido.jpg,tablero,calida,derecha,SI,20.8,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_calida_derecha_caido.jpg"
+tablero_webcam\conminito_calida_esquina-izquierda.jpg,conminito_calida_esquina-izquierda.jpg,tablero,calida,izquierda,SI,19.8,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_calida_izquierda_depie.jpg"
+tablero_webcam\conminito_calida_esquina-izquierda_caido.jpg,conminito_calida_esquina-izquierda_caido.jpg,tablero,calida,izquierda,SI,20.3,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_calida_izquierda_caido.jpg"
+tablero_webcam\conminito_centro-arriba.jpg,conminito_centro-arriba.jpg,tablero,blanca,arriba,SI,29.4,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_arriba_depie.jpg"
+tablero_webcam\conminito_centro.jpg,conminito_centro.jpg,tablero,blanca,centro,SI,14.5,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_centro_depie.jpg"
+tablero_webcam\conminito_derech.jpg,conminito_derech.jpg,tablero,blanca,centro,SI,30.6,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_centro_depie.jpg"
+tablero_webcam\conminito_izquierda.jpg,conminito_izquierda.jpg,tablero,blanca,izquierda,SI,14.7,SI,entrenar/test,"ejemplo real webcam aunque borrosa, YOLO la necesita | canon:sesion1_blanca_izquierda_depie.jpg"
+tablero_webcam\vacia_azul.jpg,vacia_azul.jpg,tablero,vacia,centro,NO,2633.0,SI,fondo,fondo tablero vacio | canon:sesion1_vacia_centro_vacio.jpg
+tablero_webcam\vacia_blanca1.jpg,vacia_blanca1.jpg,tablero,vacia,centro,NO,5267.0,SI,fondo,fondo tablero vacio | canon:sesion1_vacia_centro_vacio.jpg
+tablero_webcam\vacia_blanca2.jpg,vacia_blanca2.jpg,tablero,vacia,centro,NO,5215.9,SI,fondo,fondo tablero vacio | canon:sesion1_vacia_centro_vacio.jpg
+tablero_webcam\vacia_blanca3.jpg,vacia_blanca3.jpg,tablero,vacia,centro,NO,5258.8,SI,fondo,fondo tablero vacio | canon:sesion1_vacia_centro_vacio.jpg
+tablero_webcam\vacia_calida.jpg,vacia_calida.jpg,tablero,vacia,centro,NO,4295.2,SI,fondo,fondo tablero vacio | canon:sesion1_vacia_centro_vacio.jpg
+tablero_webcam\vacia_rojo.jpg,vacia_rojo.jpg,tablero,vacia,centro,NO,1547.1,SI,fondo,fondo tablero vacio | canon:sesion1_vacia_centro_vacio.jpg
+tablero_webcam\vacia_verde.jpg,vacia_verde.jpg,tablero,vacia,centro,NO,2537.0,SI,fondo,fondo tablero vacio | canon:sesion1_vacia_centro_vacio.jpg
+tablero_webcam\vacio1.jpg,vacio1.jpg,tablero,blanca,centro,NO,9.6,SI,fondo,fondo tablero vacio | canon:sesion1_blanca_centro_vacio.jpg
+tablero_webcam\vacio10.jpg,vacio10.jpg,tablero,blanca,centro,NO,28.5,SI,fondo,fondo tablero vacio | canon:sesion1_blanca_centro_vacio.jpg
+tablero_webcam\vacio2.jpg,vacio2.jpg,tablero,blanca,centro,NO,15.8,SI,fondo,fondo tablero vacio | canon:sesion1_blanca_centro_vacio.jpg
+tablero_webcam\vacio3.jpg,vacio3.jpg,tablero,blanca,centro,NO,14.9,SI,fondo,fondo tablero vacio | canon:sesion1_blanca_centro_vacio.jpg
+tablero_webcam\vacio4.jpg,vacio4.jpg,tablero,blanca,centro,NO,15.0,SI,fondo,fondo tablero vacio | canon:sesion1_blanca_centro_vacio.jpg
+tablero_webcam\vacio5.jpg,vacio5.jpg,tablero,blanca,centro,NO,9.8,SI,fondo,fondo tablero vacio | canon:sesion1_blanca_centro_vacio.jpg
+tablero_webcam\vacio7.jpg,vacio7.jpg,tablero,blanca,centro,NO,15.3,SI,fondo,fondo tablero vacio | canon:sesion1_blanca_centro_vacio.jpg
+tablero_webcam\vacio8.jpg,vacio8.jpg,tablero,blanca,centro,NO,14.6,SI,fondo,fondo tablero vacio | canon:sesion1_blanca_centro_vacio.jpg
+tablero_webcam\vacio9.jpg,vacio9.jpg,tablero,blanca,centro,NO,18.0,SI,fondo,fondo tablero vacio | canon:sesion1_blanca_centro_vacio.jpg
+tablero_webcam\vacio_azul1.jpg,vacio_azul1.jpg,tablero,vacio,centro,NO,3.7,PARCIAL,fondo,"azul casi negro, solo ejemplo de luz mala | canon:sesion1_vacio_centro_vacio.jpg"
+tablero_webcam\vacio_azul2.jpg,vacio_azul2.jpg,tablero,vacio,centro,NO,4.6,PARCIAL,fondo,"azul casi negro, solo ejemplo de luz mala | canon:sesion1_vacio_centro_vacio.jpg"
+tablero_webcam\vacio_azul3.jpg,vacio_azul3.jpg,tablero,vacio,centro,NO,15.6,SI,fondo,fondo tablero vacio | canon:sesion1_vacio_centro_vacio.jpg
+tablero_webcam\vacio_azul_30-70.jpg,vacio_azul_30-70.jpg,tablero,vacio,centro,NO,17.7,SI,fondo,fondo tablero vacio | canon:sesion1_vacio_centro_vacio.jpg
+tablero_webcam\vacio_azul_50-50.jpg,vacio_azul_50-50.jpg,tablero,vacio,centro,NO,18.9,SI,fondo,fondo tablero vacio | canon:sesion1_vacio_centro_vacio.jpg
+tablero_webcam\vacio_azul_70-30.jpg,vacio_azul_70-30.jpg,tablero,vacio,centro,NO,19.6,SI,fondo,fondo tablero vacio | canon:sesion1_vacio_centro_vacio.jpg
+tablero_webcam\vacio_calido1.jpg,vacio_calido1.jpg,tablero,vacio,centro,NO,26.6,SI,fondo,fondo tablero vacio | canon:sesion1_vacio_centro_vacio.jpg
+tablero_webcam\vacio_calido2.jpg,vacio_calido2.jpg,tablero,vacio,centro,NO,21.0,SI,fondo,fondo tablero vacio | canon:sesion1_vacio_centro_vacio.jpg
+tablero_webcam\vacio_Calido3.jpg,vacio_Calido3.jpg,tablero,vacio,centro,NO,23.7,SI,fondo,fondo tablero vacio | canon:sesion1_vacio_centro_vacio.jpg
+tablero_webcam\vacio_rojo.jpg,vacio_rojo.jpg,tablero,vacio,centro,NO,6.1,SI,fondo,fondo tablero vacio | canon:sesion1_vacio_centro_vacio.jpg
+tablero_webcam\vacio_verde.jpg,vacio_verde.jpg,tablero,vacio,centro,NO,9.2,SI,fondo,fondo tablero vacio | canon:sesion1_vacio_centro_vacio.jpg

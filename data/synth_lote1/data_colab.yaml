@@ -1,0 +1,6 @@
+# Lote 1 agnóstico para COLAB (/content/synth_lote1 tras descomprimir).
+path: /content/synth_lote1
+train: images
+val: images
+names:
+  0: pieza_juego

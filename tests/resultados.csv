@@ -1,0 +1,2 @@
+escena,entorno,grid,esperadas,detectadas,precision,recall,casillas_ok,ids_estables,caido_ok,notas_luz
+S01_vacia_square,E2,square,0,,,,,,,"grid 60%, noche"

@@ -1,0 +1,32 @@
+{
+ "id": "S04_muros_square",
+ "grid": {
+  "tipo": "square",
+  "cols": 12,
+  "rows": 9,
+  "cell_mm": 50
+ },
+ "bg": null,
+ "spawns": [
+  {
+   "mini": "muro1",
+   "celda": "C3"
+  },
+  {
+   "mini": "muro2",
+   "celda": "C4"
+  },
+  {
+   "mini": "muro3",
+   "celda": "C5"
+  },
+  {
+   "mini": "mago",
+   "celda": "A1"
+  }
+ ],
+ "overlays_intro": [],
+ "esperado": {
+  "conteo": 4
+ }
+}

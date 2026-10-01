@@ -1,0 +1,7 @@
+# Lote 1 agnóstico: 1 clase (pieza_juego). 200 sintéticas 640x640.
+# path relativo a la RAIZ del repo (corre yolo desde TTRPG-AI-DM/).
+path: data/synth_lote1
+train: images
+val: images
+names:
+  0: pieza_juego

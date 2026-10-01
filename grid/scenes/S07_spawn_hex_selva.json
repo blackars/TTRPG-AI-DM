@@ -1,0 +1,23 @@
+{
+ "id": "S07_spawn_hex_selva",
+ "grid": {
+  "tipo": "hex",
+  "cols": 11,
+  "rows": 9,
+  "cell_mm": 50,
+  "orientacion": "flat",
+  "offset": "odd-r"
+ },
+ "bg": null,
+ "spawns": [
+  {
+   "mini": "xenomorph",
+   "celda": "05.04",
+   "clase": "enemigo"
+  }
+ ],
+ "overlays_intro": [],
+ "esperado": {
+  "conteo": 1
+ }
+}
