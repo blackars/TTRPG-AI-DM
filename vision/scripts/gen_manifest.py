@@ -62,6 +62,29 @@ for f in sorted((base / "tablero_webcam").glob("*.jpg")):
                  pos, tiene, n, sirve, uso, nota + " | canon:" + canon])
 
 out = base / "manifest.csv"
+
+# Dioramas físicos: diorama_bosque_* / diorama_agua_* (fondo texturizado nivel 2)
+dio = base / "dioramas"
+if dio.exists():
+    for f in sorted(dio.glob("diorama_*.jpg")):
+        img = cv2.imread(str(f))
+        n = round(float(nitidez(img)), 1) if img is not None else -1
+        tipo = "bosque" if "bosque" in f.name else "agua"
+        rows.append([str(f.relative_to(base)), f.name, "diorama", "dia",
+                     tipo, "NO", n, "SI", "fondo-nivel2",
+                     "diorama físico texturizado para lote 2+"])
+
+# Biomas de pantalla recortados (fondos_biomas_crop): listos para synth V2
+crop = Path(__file__).resolve().parents[2] / "dataset" / "fondos_biomas_crop"
+if crop.exists():
+    for f in sorted(crop.glob("*.jpg")):
+        img = cv2.imread(str(f))
+        n = round(float(nitidez(img)), 1) if img is not None else -1
+        bio = "ciudad" if "ciudad" in f.name else "bosque-rio"
+        rows.append(["dataset/fondos_biomas_crop/" + f.name, f.name, "bioma",
+                     "pantalla", bio, "NO", n, "SI", "fondo-V2",
+                     "bioma digital recortado sin marco, listo para synth"])
+
 with open(out, "w", newline="", encoding="utf-8") as fh:
     w = csv.writer(fh)
     w.writerow(["ruta", "original", "set", "luz", "posicion",
