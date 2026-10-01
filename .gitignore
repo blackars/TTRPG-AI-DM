@@ -1,3 +1,5 @@
+# Sintéticas lote 2+ (pesadas, se regeneran con synth.py; el usuario las respalda aparte)
+data/synth_lote2/images/
 # Binarios pesados: se regeneran o viven fuera del repo (videos, zips, pesos, sintéticas)
 *.mp4
 *.zip
