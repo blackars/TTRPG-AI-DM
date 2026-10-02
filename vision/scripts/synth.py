@@ -86,19 +86,34 @@ def paste(bg, fg_path, scale, angle, recolor_p=0.0, acostar_p=0.0, flip_p=0.5):
         fg = fg.resize((max(8, int(fg.width * k)), max(8, int(fg.height * k))))
     x = random.randint(0, max(0, bg.shape[1] - fg.width))
     y = random.randint(0, max(0, bg.shape[0] - fg.height))
+    # Sombra de contacto: elipse oscura bajo la mini (como la luz real desde arriba)
+    bh, bw = bg.shape[:2]
+    sh = np.zeros((fg.height, fg.width), np.uint8)
+    cv2.ellipse(sh, (fg.width // 2, fg.height - max(4, fg.height // 12)),
+                (fg.width // 3, max(3, fg.height // 14)), 0, 0, 360, 255, -1)
+    sh = cv2.GaussianBlur(sh, (0, 0), sigmaX=max(2, fg.width // 40))
+    a = (sh.astype(float) / 255.0 * 0.35)[..., None]
+    roi_bg = bg[y:y + fg.height, x:x + fg.width].astype(float)
+    bg[y:y + fg.height, x:x + fg.width] = (roi_bg * (1 - a) + roi_bg * a * 0.45).astype(np.uint8)
     alpha = np.array(fg)[:, :, 3] / 255.0
+    # Borde suave 1px para que el pegado no deje filo artificial
+    alpha = cv2.GaussianBlur(alpha, (3, 3), 0)
     for c in range(3):
         roi = bg[y:y + fg.height, x:x + fg.width, c].astype(float)
         fgc = np.array(fg)[:, :, c].astype(float)
         bg[y:y + fg.height, x:x + fg.width, c] = (roi * (1 - alpha) + fgc * alpha).astype(np.uint8)
-    # poligono simple: bbox del alpha
-    ys, xs = np.where(alpha > 0.3)
-    if len(xs) == 0:
+    # Polígono REAL del contorno (no rectángulo): lo que la mini ocupa de verdad
+    m = (alpha > 0.3).astype(np.uint8) * 255
+    cnts, _ = cv2.findContours(m, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    if not cnts:
         return None
-    x0, x1, y0, y1 = xs.min() + x, xs.max() + x, ys.min() + y, ys.max() + y
+    cnt = max(cnts, key=cv2.contourArea)
+    peri = cv2.arcLength(cnt, True)
+    poly = cv2.approxPolyDP(cnt, 0.012 * peri, True).reshape(-1, 2)
+    if len(poly) < 3:
+        return None
     W, H = bg.shape[1], bg.shape[0]
-    # rectangulo como poly 4 pts normalizado (suficiente para nano MVP)
-    return [(x0 / W, y0 / H), (x1 / W, y0 / H), (x1 / W, y1 / H), (x0 / W, y1 / H)]
+    return [((px + x) / W, (py + y) / H) for px, py in poly]
 
 
 def main():
