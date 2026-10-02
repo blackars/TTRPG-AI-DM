@@ -91,3 +91,13 @@
 3. Probar best.pt v2 en foto 6-minis con `detect_live.py`; si >0.80 real → puente visión→TinyJev→table/state.
 4. Calibración ArUco + hex grid en mesa final (docs 02/07) cuando el detector sea fiable.
 5. NO reinstalar headless; NO entrenar en CPU; NO meter N4 (competencias) hasta V2 estable.
+
+## 8. Diagnostico V2 en real (pantalla verificada por el usuario)
+
+- v2_conf005.jpg: solo 2 fragmentos azules @0.20-0.21; resto invisible; 0 a conf>=0.35; igual a imgsz 1280.
+- Culpas ordenadas: (1) etiquetas rectangulo en vez de silueta [ARREGLADO en 2b: 15-16 pts],
+  (2) pegado sticker sin sombra [ARREGLADO en 2b: sombra contacto + blur 1px],
+  (3) 0 fotos reales en entreno [PENDIENTE: pseudo-etiquetar 30 reales con v3 y mezclar 70/30 para v4].
+- Sospecha: recolor 40% pudo ensenar "azul=pieza" (solo lo azul dispara). Si v3 sigue ciego a otros
+  colores, bajar recolor a 0.15.
+- Lote 2b + zips p1/p2/p3 rehechos. V3 = fine-tune desde best_v2.pt, 30 epochs, T4.
